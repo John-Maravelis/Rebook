@@ -2,8 +2,6 @@
 
 ReBook is a student-to-student platform for exchanging, selling, and donating university textbooks. It connects members of the University of Piraeus community so they can find books for their courses, arrange transactions, and communicate through the application.
 
-This project was developed as coursework for TMD147, Web Application Development, Department of Informatics, University of Piraeus, academic year 2025-26.
-
 ## Features
 
 - Student registration using a `@unipi.gr` institutional email address.
@@ -391,7 +389,3 @@ Before deploying or sharing an instance:
 - Review how uploaded files are stored and served.
 - Use a production frontend build and a production-grade ASGI deployment configuration.
 - Treat JWTs stored by the frontend in `localStorage` as a deployment security consideration.
-
-## Academic Context
-
-ReBook was developed individually to fulfill the exam-period assignment ("Απαλλακτική Εργασία") requirements for TMD147, Web Application Development, at the University of Piraeus, September 2026.
