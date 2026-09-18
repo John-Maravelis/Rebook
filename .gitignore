@@ -1,0 +1,35 @@
+# Environment
+.env
+*.local
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Frontend and Node.js
+frontend/logs/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+frontend/.vscode/*
+!frontend/.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
